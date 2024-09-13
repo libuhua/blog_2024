@@ -1,0 +1,11 @@
+ImmortalWrt
+
+刷入img后
+
+进入终端，vim /etc/config/network 修改ip为192.168.110.2 修改为与路由器同一网段
+
+进入后台
+
+添加网关地址，高级设置中设置dns
+
+网络监测中ping baidu.com 判断是否可以上网。
