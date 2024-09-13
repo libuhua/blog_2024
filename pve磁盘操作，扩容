@@ -1,0 +1,43 @@
+Liunx系统操作
+
+lsblk 查看磁盘树状图
+
+查看所有磁盘及分区
+fdisk -l
+
+查看指定磁盘分区
+fdisk -l /dev/sda
+
+安装分区工具parted
+
+apt-get update
+
+apt-get install parted
+
+parted /dev/sda
+
+> mklabel gpt 
+> yes
+
+> mkpart p1(分区名)
+
+> 1 50% 支持
+
+分区完毕进行扩容
+
+磁盘 -> /dev/s* -> 格式化分区 -> pv -> vg -> lv
+
+pvcreate /dev/sda1
+
+pvdisplay
+
+vgdisplay 查看vg 数据
+
+扩展vg数据内容
+
+vgextend pve /dev/sda1
+
+lvdisplay 查看lv数据
+
+扩容lv数据
+lvresize /dev/pve/root /dev/sda1
