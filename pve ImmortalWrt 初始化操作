@@ -11,4 +11,14 @@ ImmortalWrt
 网络监测中ping baidu.com 判断是否可以上网。
 
 更新插件库
-安装插件，
+
+src/gz immortalwrt_core https://mirrors.pku.edu.cn/immortalwrt/releases/23.05.1/targets/x86/64/packages
+src/gz immortalwrt_base https://mirrors.pku.edu.cn/immortalwrt/releases/23.05.1/packages/x86_64/base
+src/gz immortalwrt_luci https://mirrors.pku.edu.cn/immortalwrt/releases/23.05.1/packages/x86_64/luci
+src/gz immortalwrt_packages https://mirrors.pku.edu.cn/immortalwrt/releases/23.05.1/packages/x86_64/packages
+src/gz immortalwrt_routing https://mirrors.pku.edu.cn/immortalwrt/releases/23.05.1/packages/x86_64/routing
+src/gz immortalwrt_telephony https://mirrors.pku.edu.cn/immortalwrt/releases/23.05.1/packages/x86_64/telephony
+
+安装插件
+
+luci-i18n-ttyd-zh-cn	
