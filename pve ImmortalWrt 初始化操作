@@ -20,5 +20,6 @@ src/gz immortalwrt_routing https://mirrors.pku.edu.cn/immortalwrt/releases/23.05
 src/gz immortalwrt_telephony https://mirrors.pku.edu.cn/immortalwrt/releases/23.05.1/packages/x86_64/telephony
 
 安装插件
-
-luci-i18n-ttyd-zh-cn	
+luci-theme-argon 主题
+luci-i18n-ttyd-zh-cn 网页终端
+luci-i18n-passwall-zh-cn 科学上网
