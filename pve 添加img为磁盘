@@ -1,0 +1,5 @@
+1. 上传img文件到iso文件
+2. 复制文件地址
+3. mq disk import 虚拟机id img文件目录 存储空间
+
+qm disk import 102 /var/lib/vz/template/iso/immortalwrt-23.05.1-x86-64-generic-ext4-combined-efi.img local
