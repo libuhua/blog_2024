@@ -44,3 +44,6 @@ lvdisplay 查看lv数据
 
 扩容lv数据
 lvresize /dev/pve/root /dev/sda1
+
+resize2fs /dev/pve/root
+如果你使用的是XFS文件系统，你需要使用 xfs_growfs 命令。
