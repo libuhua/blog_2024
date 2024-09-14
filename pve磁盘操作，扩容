@@ -19,6 +19,9 @@ parted /dev/sda
 > mklabel gpt 
 > yes
 
+文件系统类型？  [ext2]? xfs        
+# 定义分区格式（不支持ext4，想分ext4格式的分区，可以通过mkfs.ext4格式化成ext4格式）
+
 > mkpart p1(分区名)
 
 > 1 50% 支持
